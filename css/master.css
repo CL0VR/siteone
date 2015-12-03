@@ -1,0 +1,82 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+
+/*****
+HEADER
+*****/
+
+
+.intro {
+  border-style: solid;
+  border-color: red;
+  margin: 0 auto;
+}
+
+
+/*****
+NAVIGATION
+*****/
+
+nav a {
+  text-decoration: none;
+  list-style: none;
+  /*display: inline-block;*/
+  color: black;
+}
+
+nav a:visited{
+  color: grey;
+}
+
+nav {
+  padding:
+}
+
+
+/*****
+TOURISM
+*****/
+
+
+.tourism {
+  border-style: solid;
+  border-color: red;
+}
+
+
+
+/*****
+ABOUT
+*****/
+
+
+.aboutism {
+  border-style: solid;
+  border-color: red;
+}
+
+
+/*****
+CONTACT
+*****/
+
+
+.contactism {
+  border-style: solid;
+  border-color: red;
+}
+
+
+/*****
+MAP
+*****/
+
+
+.tomtom {
+  border-style: solid;
+  border-color: red;
+}
