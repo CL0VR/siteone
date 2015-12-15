@@ -144,9 +144,28 @@ ABOUT SECTION
   z-index: 1;
 }
 
+.about div {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-size: 1em;
+}
 
+.about div:last-child {
+  padding-bottom: 50px;
+}
 
+.worker1 {
 
+}
+
+.worker2 {
+
+}
+
+.worker3 {
+
+}
 
 
 
@@ -159,3 +178,7 @@ ABOUT SECTION
 /***********************
 CONTACT SECTION
 ***********************/
+
+.contact {
+  margin-top: 100px;
+}
