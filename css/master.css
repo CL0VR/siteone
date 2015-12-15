@@ -70,10 +70,12 @@ TOURS SECTION
 
 .tours h1 {
   font-size: 5em;
+  display: inline-block;
+  background-color: lightblue;
   position: absolute;
   left: -2%;
   top: 50px;
-  float: left;
+  z-index: 1;
 }
 
 .tours div {
@@ -96,8 +98,7 @@ TOURS SECTION
 }
 
 .wild {
-  /*background-color: green;*/
-  border: .095em solid green
+  background-color: green;
 }
 
 .extended {
