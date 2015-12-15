@@ -5,7 +5,7 @@ body, body * {
 }
 
 #main {
-  max-width: 320px;
+  width: 320px;
 }
 
 /***********************
@@ -59,22 +59,41 @@ nav a{
 
 
 /***********************
+OATS DEFINITION
+***********************/
+
+.oats {
+  text-align: center;
+  background-color: limegreen;
+  margin-top: 100px;
+  padding: 2%;
+
+}
+
+.oats h3 {
+  font-size: 1.45em;
+}
+
+.oats > p {
+  font-size: 1em;
+}
+
+/***********************
 TOURS SECTION
 ***********************/
 
 .tours {
-  margin-top: 150px;
+  margin-top: 100px;
   overflow: hidden;
   position: relative;
 }
 
 .tours h1 {
-  font-size: 5em;
+  font-size: 3em;
   display: inline-block;
-  background-color: lightblue;
   position: absolute;
-  left: -2%;
-  top: 50px;
+  left: -3%;
+  top: 0;
   z-index: 1;
 }
 
@@ -109,6 +128,28 @@ TOURS SECTION
 /***********************
 ABOUT SECTION
 ***********************/
+
+.about {
+  margin-top: 150px;
+  width: 320px;
+  position: relative;
+  background-color: red;
+}
+
+.about h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3em;
+  z-index: 1;
+}
+
+
+
+
+
+
+
 
 
 
