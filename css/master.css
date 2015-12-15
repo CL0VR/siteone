@@ -2,7 +2,10 @@ body, body * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  max-width: 320px;
+}
+
+#main {
+  width: 320px;
 }
 
 /***********************
@@ -15,12 +18,19 @@ header {
   background-color: yellow;
 }
 
-
+header > a {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 5em;
+}
 
 
 /***********************
 NAVIGATION
 ***********************/
+
 
 nav {
   position: absolute;
@@ -28,12 +38,17 @@ nav {
   width: 320px;
   overflow: hidden;
   background-color: red;
+  border-top: .095em solid purple;
+  border-bottom: .095em solid purple;
 }
 
 nav a:first-child {
   padding-left: 5%;
-  margin-left: 2.5%;
+  margin-left: 2%;
+}
 
+nav a:last-child {
+  margin-right: 2%;
 }
 
 nav a{
