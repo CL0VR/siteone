@@ -2,6 +2,7 @@ body, body * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  max-width: 320px;
 }
 
 /***********************
@@ -25,10 +26,20 @@ nav {
   position: absolute;
   top: 200px;
   width: 320px;
-  left: 50%;
+  overflow: hidden;
+  background-color: red;
 }
 
+nav a:first-child {
+  padding-left: 5%;
+  margin-left: 2.5%;
 
+}
+
+nav a{
+  padding: 5%;
+  background-color: darkred;
+}
 
 
 /***********************
