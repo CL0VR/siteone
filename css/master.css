@@ -5,7 +5,7 @@ body, body * {
 }
 
 #main {
-  width: 320px;
+  max-width: 320px;
 }
 
 /***********************
@@ -54,6 +54,7 @@ nav a:last-child {
 nav a{
   padding: 5%;
   background-color: darkred;
+  color: white;
 }
 
 
@@ -61,9 +62,47 @@ nav a{
 TOURS SECTION
 ***********************/
 
+.tours {
+  margin-top: 150px;
+  overflow: hidden;
+  position: relative;
+}
 
+.tours h1 {
+  font-size: 5em;
+  position: absolute;
+  left: -2%;
+  top: 50px;
+  float: left;
+}
 
+.tours div {
+  min-height: 250px;
+  width: 33.3333%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
 
+.tours div p {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translate(-50%, -15%);
+}
+
+.family {
+  background-color: red;
+}
+
+.wild {
+  /*background-color: green;*/
+  border: .095em solid green
+}
+
+.extended {
+  background-color: yellow;
+}
 
 
 /***********************
