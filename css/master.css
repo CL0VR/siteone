@@ -1,82 +1,54 @@
-* {
-  margin: 0 auto;
+body, body * {
+  margin: 0;
   padding: 0;
-  list-style: none;
-}
-
-
-/*****
-HEADER
-*****/
-
-
-.intro {
-  border-style: solid;
-  border-color: red;
-  margin: 0 auto;
-}
-
-
-/*****
-NAVIGATION
-*****/
-
-nav a {
   text-decoration: none;
-  list-style: none;
-  /*display: inline-block;*/
-  color: black;
 }
 
-nav a:visited{
-  color: grey;
+/***********************
+HEADER
+***********************/
+
+header {
+  min-height: 250px;
+  position: relative;
+  background-color: yellow;
 }
+
+
+
+
+/***********************
+NAVIGATION
+***********************/
 
 nav {
-  padding:
-}
-
-
-/*****
-TOURISM
-*****/
-
-
-.tourism {
-  border-style: solid;
-  border-color: red;
+  position: absolute;
+  top: 200px;
+  width: 320px;
+  left: 50%;
 }
 
 
 
-/*****
-ABOUT
-*****/
+
+/***********************
+TOURS SECTION
+***********************/
 
 
-.aboutism {
-  border-style: solid;
-  border-color: red;
-}
 
 
-/*****
-CONTACT
-*****/
 
 
-.contactism {
-  border-style: solid;
-  border-color: red;
-}
+/***********************
+ABOUT SECTION
+***********************/
 
 
-/*****
-MAP
-*****/
 
 
-.tomtom {
-  border-style: solid;
-  border-color: red;
-}
+
+
+/***********************
+CONTACT SECTION
+***********************/
