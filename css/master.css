@@ -4,7 +4,7 @@ body, body * {
   text-decoration: none;
 }
 
-#main {
+.main {
   width: 100%;
 }
 
@@ -20,6 +20,8 @@ header {
   background: linear-gradient(transparent, white 98%), url(http://40.media.tumblr.com/b54104a8a5fef63d355b22d0ef76de16/tumblr_nfi8x7TeF91rs8w78o1_1280.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 10px;
+  margin-top: -10px;
   }
 
 header > a {
@@ -106,35 +108,9 @@ TOURS SECTION
   position: relative;
 }
 
-.tours div p {
-  position: absolute;
-  left: 50%;
-  bottom: 15%;
-  transform: translate(-50%, -15%);
-  font-size: 3em;
-  color: limegreen;
-}
 
-.family {
-  /*background-color: red;*/
-  background: url(http://40.media.tumblr.com/1cd2a90fe5af9ab5e3170a1cdda77ef2/tumblr_nz1o48alBs1r4uw8oo1_1280.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.fun {
-  /*background-color: green;*/
-  background: url(http://41.media.tumblr.com/ec8cdfee9d9e7003b48e4f85edbaf0f6/tumblr_n1okruNPcU1slpxjko1_1280.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.extended {
-  /*background-color: yellow;*/
-  background: url(http://41.media.tumblr.com/b9000038e022ec5aa47a39dbc02dc4a6/tumblr_nz8aiddRGA1shc1wyo1_1280.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 
 /***********************
@@ -185,12 +161,78 @@ ABOUT SECTION
 
 
 
-.tri {
-	width: 0;
-	height: 0;
-	border-top: 100px solid red;
-	border-right: 100px solid transparent;
+.row1 {
+  min-height: 400px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  margin-bottom: -420px;
 }
+
+.family {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://40.media.tumblr.com/1cd2a90fe5af9ab5e3170a1cdda77ef2/tumblr_nz1o48alBs1r4uw8oo1_1280.jpg);
+  background-size: cover;
+}
+
+.family {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+.row2 {
+  min-height: 400px;
+  background-color: green;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.extend {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://41.media.tumblr.com/b9000038e022ec5aa47a39dbc02dc4a6/tumblr_nz8aiddRGA1shc1wyo1_1280.jpg);
+  background-size: cover;
+}
+
+.extend {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+.row3 {
+  min-height: 400px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  margin-top: -420px;
+}
+
+.fun {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://41.media.tumblr.com/ec8cdfee9d9e7003b48e4f85edbaf0f6/tumblr_n1okruNPcU1slpxjko1_1280.jpg);
+  background-size: cover;
+}
+
+.fun {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,5 +242,5 @@ CONTACT SECTION
 ***********************/
 
 .contact {
-  margin-top: 100px;
+  margin-top: 200px;
 }
