@@ -290,8 +290,24 @@ ABOUT: WORKERS
   -webkit-clip-path: circle(50%, 50%, 45%);
   -webkit-shape-margin: 10px;
   shape-margin: 10px;
-  background: url(http://40.media.tumblr.com/0378d106db500895ebb854b9b6f6268c/tumblr_n69os2Vsp61qhxikro1_1280.png);
+}
+
+.circle1 {
+  background: url(http://ak-hdl.buzzfed.com/static/imagebuzz/web04/2011/10/10/9/abe-lincoln-ghostbuster-11462-1318251772-16.jpg);
   background-size: cover;
+  background-position: 5% 1%;
+}
+
+.circle2 {
+  background: url(http://ak-hdl.buzzfed.com/static/enhanced/webdr01/2013/6/20/12/enhanced-buzz-855-1371744174-29.jpg);
+  background-size: cover;
+  background-position: 10% 15%;
+}
+
+.circle3 {
+  background: url(https://scontent.fphx1-2.fna.fbcdn.net/hphotos-xfp1/v/t1.0-9/11028010_1646831552218543_2654848818001781198_n.jpg?oh=05f92c95fd42f48094e4d9b8f665d1fc&oe=5714EF87);
+  background-size: auto;
+  background-position: 75% 58%;
 }
 
 @media (min-width: 320px) {
