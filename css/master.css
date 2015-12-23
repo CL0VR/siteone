@@ -85,54 +85,136 @@ OATS DEFINITION
 TOURS SECTION
 ***********************/
 
+
 .tours {
-  margin-top: 100px;
-  overflow: hidden;
   position: relative;
+  margin-top: 100px;
+  /*background-color: red;*/
 }
 
 .tours h3 {
-  font-size: 11em;
-  display: inline-block;
   position: absolute;
-  left: -3%;
   top: 0;
-  z-index: 1;
+  left: 0;
+  font-size: 11em;
 }
 
-.tours div {
-  min-height: 850px;
-  width: 33.3333%;
-  float: left;
-  text-align: center;
+.row1 {
+  min-height: 400px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  margin-bottom: 50px;
   position: relative;
 }
 
+.family {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://41.media.tumblr.com/136021ac1c41529ee7b3390af208ffc5/tumblr_myj8ufG3a21rixjg1o1_1280.jpg);
+  background-size: cover;
+  background-position: 10% 38%;
+}
 
+.family {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
 
+.row1 > p {
+  position: absolute;
+  bottom: 34%;
+  left: 50%;
+  transform: translate(-34% -50%);
+  font-size: 6em;
+  transform: rotate(-22deg);
+  color: white;
+}
 
+.row2 {
+  min-height: 400px;
+  background-color: green;
+  background-color: transparent;
+  overflow: hidden;
+  margin-top: -420px;
+  margin-bottom: 50px;
+}
 
+.extend {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://40.media.tumblr.com/0378d106db500895ebb854b9b6f6268c/tumblr_n69os2Vsp61qhxikro1_1280.png);
+  background-size: cover;
+}
 
+.extend {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+.row2 > p {
+  position: absolute;
+  bottom: 41%;
+  left: 41%;
+  transform: translate(-41% -41%);
+  font-size: 6em;
+  transform: rotate(-22deg);
+  color: white;
+}
+
+.row3 {
+  min-height: 400px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  margin-top: -420px;
+  position: relative;
+}
+
+.fun {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://36.media.tumblr.com/a4d4af8cb7a6d7b87a511b9763fb030b/tumblr_mz3ruhSdpM1sx8v83o1_1280.jpg);
+  background-size: cover;
+  background-position: 10% 81%;
+}
+
+.fun {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+.row3 > p {
+  position: absolute;
+  bottom: 37%;
+  left: 62%;
+  transform: translate(-37% -62%);
+  font-size: 6em;
+  transform: rotate(-22deg);
+  color: white;
+}
 /***********************
 ABOUT SECTION
 ***********************/
 
 .about {
   margin-top: 150px;
+  margin-bottom: 50px;
+  min-height: 500px;
   width: 100%;
   position: relative;
-  /*background-color: red;*/
-  background: url();
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: red;
+  overflow: hidden;
 }
 
-.about h1 {
+.about h2 {
   position: absolute;
-  top: 0;
+  top: -32px;
   right: 0;
-  font-size: 3em;
-  z-index: 1;
+  font-size: 11em;
 }
 
 .about div {
@@ -146,82 +228,101 @@ ABOUT SECTION
   padding-bottom: 50px;
 }
 
-.worker1 {
 
+/***********************
+ABOUT: WORKERS
+***********************/
+
+
+.worker1, .worker2, .worker3 {
+  min-height: 400px;
+  overflow: hidden;
+  width: 100%;
 }
 
-.worker2 {
+.worker1, .worker2, .worker3 {
+  -webkit-clip-path: polygon(100% 25%, 100% 100%, 0% 75%, 0 0);
+  clip-path: polygon(100% 25%, 100% 100%, 0% 75%, 0 0);
+}
 
+.worker1 {
+  position: relative;
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background-color: blue;
+  margin-bottom: 200px;
+}
+
+/*.worker1, .worker2, .worker3 p {
+  font-size: 0.91em;
+  padding: 3.5%;
+  position: relative;
+  top: -20px;
+}*/
+
+.worker2 {
+  background-color: green;
+  margin-top: -420px;
+  margin-bottom: 200px;
+  float: left;
+  min-height: 800px;
 }
 
 .worker3 {
-
-}
-
-
-
-
-.row1 {
-  min-height: 400px;
-  width: 100%;
-  background-color: transparent;
-  overflow: hidden;
-  margin-bottom: -420px;
-}
-
-.family {
-  float: left;
-  min-height: 800px;
-  width: 100%;
-  background: url(http://40.media.tumblr.com/1cd2a90fe5af9ab5e3170a1cdda77ef2/tumblr_nz1o48alBs1r4uw8oo1_1280.jpg);
-  background-size: cover;
-}
-
-.family {
-  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
-}
-
-.row2 {
-  min-height: 400px;
-  background-color: green;
-  background-color: transparent;
-  overflow: hidden;
-}
-
-.extend {
-  float: left;
-  min-height: 800px;
-  width: 100%;
-  background: url(http://41.media.tumblr.com/b9000038e022ec5aa47a39dbc02dc4a6/tumblr_nz8aiddRGA1shc1wyo1_1280.jpg);
-  background-size: cover;
-}
-
-.extend {
-  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
-}
-
-.row3 {
-  min-height: 400px;
-  width: 100%;
-  background-color: transparent;
-  overflow: hidden;
   margin-top: -420px;
-}
-
-.fun {
+  position: relative;
   float: left;
   min-height: 800px;
   width: 100%;
-  background: url(http://41.media.tumblr.com/ec8cdfee9d9e7003b48e4f85edbaf0f6/tumblr_n1okruNPcU1slpxjko1_1280.jpg);
+  background-color: yellow;
+}
+
+.circle1, .circle2, .circle3 {
+  float:right;
+  width:350px;
+  height:100px;
+  margin: -1% -2% 1% 2%;
+  background-color: DarkTurquoise;
+  -webkit-shape-outside: circle(50%, 50%, 45%);
+  shape-outside: circle(45% at 50% 50%);
+  -webkit-clip-path: circle(45% at 50% 50%);
+  -webkit-clip-path: circle(50%, 50%, 45%);
+  -webkit-shape-margin: 10px;
+  shape-margin: 10px;
+  background: url(http://40.media.tumblr.com/0378d106db500895ebb854b9b6f6268c/tumblr_n69os2Vsp61qhxikro1_1280.png);
   background-size: cover;
 }
 
-.fun {
-  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+@media (min-width: 320px) {
+  .worker1 p {font-size: .91em;
+    padding: 5.5%;
+    position: relative;
+    top: -20px;
+  }
 }
+
+@media (min-width: 599px) {
+    .worker1 p {font-size: 1em;
+    padding: 5.5%;
+    position: relative;
+    top: -20px;
+  }
+}
+
+/*@media (min-width: 375px) {
+  .worker1 p {font-size: 3em;}
+}*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -241,6 +342,6 @@ clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
 CONTACT SECTION
 ***********************/
 
-.contact {
+/*.contact {
   margin-top: 200px;
-}
+}*/
