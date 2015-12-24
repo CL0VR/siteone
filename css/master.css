@@ -417,3 +417,24 @@ CONTACT SECTION
   background-color: #fff;
   opacity: .81;
 }
+
+
+
+
+/***********************
+FOOTER SECTION
+***********************/
+
+
+footer {
+  margin-top: 150px;
+  background-color: #242424;
+  opacity: .81;
+}
+
+footer p {
+  text-align: center;
+  padding: 5%;
+  color: white;
+  opacity: .81;
+}
