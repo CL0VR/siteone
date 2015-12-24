@@ -212,8 +212,10 @@ clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
   transform: translate(-37% -62%);
   font-size: 7em;
   transform: rotate(-22deg);
-  color: white;
   font-family: 'Permanent Marker',cursive;
+  background: -webkit-linear-gradient(#fff, #fff, #0B313B 140%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 /***********************
 ABOUT SECTION
@@ -336,7 +338,7 @@ ABOUT: WORKERS
   background-position: 75% 58%;
 }
 
-@media (min-width: 320px) {
+/*@media (min-width: 320px) {
   .worker1 p {font-size: .91em;
     padding: 4.5%;
     position: relative;
@@ -344,37 +346,45 @@ ABOUT: WORKERS
     color: white;
     opacity: .75;
   }
-}
+}*/
 
 .worker1 h3 {
   color: white;
-  font-size: .91em;
+  font-size: 4em;
   opacity: .85;
 }
 
 .worker2 h3 {
   color: white;
-  font-size: .91em;
-  opacity: .85;
-}
-
-.worker2 p  {
-  color: white;
-  font-size: .91em;
-  opacity: .85;
-}
-
-.worker3 p  {
-  color: white;
-  font-size: .91em;
+  font-size: 4em;
   opacity: .85;
 }
 
 .worker3 h3  {
   color: white;
-  font-size: .91em;
+  font-size: 4em;
   opacity: .85;
 }
+
+.worker1 p  {
+  color: white;
+  font-size: 3em;
+  opacity: .85;
+}
+
+.worker2 p  {
+  color: white;
+  font-size: 3em;
+  opacity: .85;
+}
+
+.worker3 p  {
+  color: white;
+  font-size: 3em;
+  opacity: .85;
+}
+
+
 /*@media (min-width: 599px) {
     .worker1 p {font-size: 1em;
     padding: 5.5%;
@@ -400,8 +410,8 @@ CONTACT SECTION
 
 .contact h2 {
   position: absolute;
-  bottom: 126px;
-  right: 72px;
+  bottom: 115px;
+  right: 61px;
   transform: rotate(-26deg);
   font-size: 12em;
   z-index: 1;
