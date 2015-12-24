@@ -9,7 +9,7 @@ body, body * {
 
 .main {
   width: 100%;
-  background: linear-gradient(transparent, #fff, #0B313B 80%)
+  background: linear-gradient(#fff, #fff, #0B313B 80%)
 }
 
 /***********************
@@ -73,7 +73,7 @@ OATS DEFINITION
 
 .oats {
   text-align: center;
-  background-color: white;
+  background-color: transparent;
   margin-top: 50px;
   padding: 2%;
 }
