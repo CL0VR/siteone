@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Permanent+Marker|Marmelad);
+
 body, body * {
   margin: 0;
   padding: 0;
@@ -27,12 +29,14 @@ header {
   }
 
 header > a {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 17em;
-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17em;
+  color: #242424;
+  opacity: .85;
+  font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -59,6 +63,7 @@ nav a {
   border: .095em solid darkblue;
   padding: 1.5%;
   color: black;
+  font-family: Amatic SC, sans-serif;
 }
 
 
@@ -76,10 +81,12 @@ OATS DEFINITION
 
 .oats h3 {
   font-size: 1.45em;
+  font-family: 'Permanent Marker',cursive;
 }
 
 .oats > p {
   font-size: 1em;
+  font-family: 'Amatic SC', sans-serif;
 }
 
 
@@ -99,6 +106,9 @@ TOURS SECTION
   top: 0;
   left: 0;
   font-size: 11em;
+  font-family: 'Permanent Marker',cursive;
+  color: #242424;
+  opacity: .85;
 }
 
 .row1 {
@@ -126,12 +136,13 @@ clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
 
 .row1 > p {
   position: absolute;
-  bottom: 34%;
-  left: 50%;
+  bottom: 27%;
+  left: 30%;
   transform: translate(-34% -50%);
-  font-size: 6em;
+  font-size: 7em;
   transform: rotate(-22deg);
   color: white;
+  font-family: 'Permanent Marker',cursive;
 }
 
 .row2 {
@@ -158,12 +169,13 @@ clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
 
 .row2 > p {
   position: absolute;
-  bottom: 41%;
-  left: 41%;
+  bottom: 37%;
+  left: 19%;
   transform: translate(-41% -41%);
-  font-size: 6em;
+  font-size: 7em;
   transform: rotate(-22deg);
   color: white;
+  font-family: 'Permanent Marker',cursive;
 }
 
 .row3 {
@@ -191,12 +203,13 @@ clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
 
 .row3 > p {
   position: absolute;
-  bottom: 37%;
-  left: 62%;
+  bottom: 30%;
+  left: 46%;
   transform: translate(-37% -62%);
-  font-size: 6em;
+  font-size: 7em;
   transform: rotate(-22deg);
   color: white;
+  font-family: 'Permanent Marker',cursive;
 }
 /***********************
 ABOUT SECTION
@@ -214,16 +227,20 @@ ABOUT SECTION
 
 .about h2 {
   position: absolute;
-  top: -32px;
-  right: 0;
-  font-size: 11em;
+  top: -43px;
+  right: 0px;
+  font-size: 9em;
+  font-family: 'Permanent Marker',cursive;
+  color: #242424;
+  opacity: .85;
 }
 
 .about div {
   text-align: center;
   padding-top: 200px;
-  color: black;
+  color: #242424;
   font-size: 1em;
+  opacity: .8;
 }
 
 .about div:last-child {
@@ -252,7 +269,7 @@ ABOUT: WORKERS
   float: left;
   min-height: 800px;
   width: 100%;
-  background-color: black;
+  background-color: #242424;
   opacity: .81;
   margin-bottom: 200px;
 }
@@ -265,7 +282,8 @@ ABOUT: WORKERS
 }*/
 
 .worker2 {
-  background-color: green;
+  background-color: #242424;
+  opacity: .81;
   margin-top: -420px;
   margin-bottom: 200px;
   float: left;
@@ -278,7 +296,8 @@ ABOUT: WORKERS
   float: left;
   min-height: 800px;
   width: 100%;
-  background-color: yellow;
+  background-color: #242424;
+  opacity: .81;
 }
 
 .circle1, .circle2, .circle3 {
@@ -298,7 +317,7 @@ ABOUT: WORKERS
 .circle1 {
   background: url(http://ak-hdl.buzzfed.com/static/imagebuzz/web04/2011/10/10/9/abe-lincoln-ghostbuster-11462-1318251772-16.jpg);
   background-size: cover;
-  background-position: 5% 1%;
+  background-position: 3% -6%;
 }
 
 .circle2 {
@@ -315,22 +334,50 @@ ABOUT: WORKERS
 
 @media (min-width: 320px) {
   .worker1 p {font-size: .91em;
-    padding: 5.5%;
+    padding: 4.5%;
     position: relative;
     top: -20px;
-    background: -webkit-linear-gradient(transparent, #fff, #0B313B 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    opacity: .75;
   }
 }
 
-@media (min-width: 599px) {
+.worker1 h3 {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker2 h3 {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker2 p  {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker3 p  {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker3 h3  {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+/*@media (min-width: 599px) {
     .worker1 p {font-size: 1em;
     padding: 5.5%;
     position: relative;
     top: -20px;
   }
-}
+}*/
 
 
 
@@ -339,21 +386,22 @@ CONTACT SECTION
 ***********************/
 
 .contact {
-  margin-top: 200px;
+  margin-top: -200px;
   margin-bottom: 100px;
   min-height: 800px;
-  background-color: yellow;
+  background-color: transparent;
   position: relative;
   overflow: hidden;
 }
 
 .contact h2 {
   position: absolute;
-  bottom: 120px;
-  right: 130px;
+  bottom: 126px;
+  right: 72px;
   transform: rotate(-26deg);
-  font-size: 11em;
+  font-size: 12em;
   z-index: 1;
+  color: #0B313B
 }
 
 .email {
@@ -362,5 +410,6 @@ CONTACT SECTION
   width: 110%;
   -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, -10% 100%, 145% 0, 100% 0);
   clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 145% 0, 100% 0);
-  background-color: red;
+  background-color: #fff;
+  opacity: .81;
 }
