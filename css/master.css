@@ -46,23 +46,22 @@ NAVIGATION
 
 
 nav {
-  background-color: teal;
   text-align: center;
   position: absolute;
   top: 75%;
   left: 0;
   right: 0;
-  transform: translate(-75% 0 0 0);
-  border-top: .5em solid tomato;
-  border-bottom: .5em solid tomato;
+  border-top: .5em solid #242424;
+  border-bottom: .5em solid#242424;
+  opacity: .85;
 }
 
 nav a {
-  font-size: 4rem;
+  font-size: 6rem;
   margin: 0 15px;
-  border: .095em solid darkblue;
-  padding: 1.5%;
-  color: black;
+  border: .095em solid transparent;
+  padding: .85%;
+  color: #242424;
   font-family: Amatic SC, sans-serif;
 }
 
@@ -80,13 +79,18 @@ OATS DEFINITION
 }
 
 .oats h3 {
-  font-size: 1.45em;
+  font-size: 3.5em;
   font-family: 'Permanent Marker',cursive;
+  color: #242424;
+  opacity: .85;
 }
 
 .oats > p {
-  font-size: 1em;
+  font-size: 4em;
+  padding: 0 5.5%;
   font-family: 'Amatic SC', sans-serif;
+  color: #242424;
+  opacity: .85;
 }
 
 
