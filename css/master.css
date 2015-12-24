@@ -1,29 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Permanent+Marker|Marmelad);
+
 body, body * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+
 }
 
-#main {
-  width: 320px;
+.main {
+  width: 100%;
+  background: linear-gradient(transparent, #fff, #0B313B 80%)
 }
 
 /***********************
 HEADER
 ***********************/
 
+
 header {
-  min-height: 250px;
+  min-height: 850px;
   position: relative;
-  background-color: yellow;
-}
+  /*background-color: yellow;*/
+  background: linear-gradient(transparent, white 98%), url(http://40.media.tumblr.com/b54104a8a5fef63d355b22d0ef76de16/tumblr_nfi8x7TeF91rs8w78o1_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  }
 
 header > a {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17em;
+  color: #242424;
+  opacity: .85;
+  font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -33,28 +46,23 @@ NAVIGATION
 
 
 nav {
+  text-align: center;
   position: absolute;
-  top: 200px;
-  width: 320px;
-  overflow: hidden;
-  background-color: red;
-  border-top: .095em solid purple;
-  border-bottom: .095em solid purple;
+  top: 75%;
+  left: 0;
+  right: 0;
+  border-top: .5em solid #242424;
+  border-bottom: .5em solid#242424;
+  opacity: .85;
 }
 
-nav a:first-child {
-  padding-left: 5%;
-  margin-left: 2%;
-}
-
-nav a:last-child {
-  margin-right: 2%;
-}
-
-nav a{
-  padding: 5%;
-  background-color: darkred;
-  color: white;
+nav a {
+  font-size: 6rem;
+  margin: 0 15px;
+  border: .095em solid transparent;
+  padding: .85%;
+  color: #242424;
+  font-family: Amatic SC, sans-serif;
 }
 
 
@@ -62,116 +70,318 @@ nav a{
 OATS DEFINITION
 ***********************/
 
+
 .oats {
   text-align: center;
-  background-color: limegreen;
-  margin-top: 100px;
+  background-color: transparent;
+  margin-top: 50px;
   padding: 2%;
-
 }
 
 .oats h3 {
-  font-size: 1.45em;
+  font-size: 3.5em;
+  font-family: 'Permanent Marker',cursive;
+  color: #242424;
+  opacity: .85;
 }
 
 .oats > p {
-  font-size: 1em;
+  font-size: 4em;
+  padding: 0 5.5%;
+  font-family: 'Amatic SC', sans-serif;
+  color: #242424;
+  opacity: .85;
 }
+
 
 /***********************
 TOURS SECTION
 ***********************/
 
+
 .tours {
+  position: relative;
   margin-top: 100px;
-  overflow: hidden;
-  position: relative;
+  /*background-color: red;*/
 }
 
-.tours h1 {
-  font-size: 3em;
-  display: inline-block;
+.tours h2 {
   position: absolute;
-  left: -3%;
   top: 0;
-  z-index: 1;
+  left: 0;
+  font-size: 11em;
+  font-family: 'Permanent Marker',cursive;
+  color: #242424;
+  opacity: .85;
 }
 
-.tours div {
-  min-height: 250px;
-  width: 33.3333%;
-  float: left;
-  text-align: center;
+.row1 {
+  min-height: 400px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  margin-bottom: 50px;
   position: relative;
-}
-
-.tours div p {
-  position: absolute;
-  left: 50%;
-  bottom: 15%;
-  transform: translate(-50%, -15%);
 }
 
 .family {
-  background-color: red;
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://41.media.tumblr.com/136021ac1c41529ee7b3390af208ffc5/tumblr_myj8ufG3a21rixjg1o1_1280.jpg);
+  background-size: cover;
+  background-position: 10% 38%;
 }
 
-.wild {
+.family {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+.row1 > p {
+  position: absolute;
+  bottom: 27%;
+  left: 30%;
+  transform: translate(-34% -50%);
+  font-size: 7em;
+  transform: rotate(-22deg);
+  color: white;
+  font-family: 'Permanent Marker',cursive;
+}
+
+.row2 {
+  min-height: 400px;
   background-color: green;
+  background-color: transparent;
+  overflow: hidden;
+  margin-top: -420px;
+  margin-bottom: 50px;
 }
 
-.extended {
-  background-color: yellow;
+.extend {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://40.media.tumblr.com/0378d106db500895ebb854b9b6f6268c/tumblr_n69os2Vsp61qhxikro1_1280.png);
+  background-size: cover;
 }
 
+.extend {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
 
+.row2 > p {
+  position: absolute;
+  bottom: 37%;
+  left: 19%;
+  transform: translate(-41% -41%);
+  font-size: 7em;
+  transform: rotate(-22deg);
+  color: white;
+  font-family: 'Permanent Marker',cursive;
+}
+
+.row3 {
+  min-height: 400px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  margin-top: -420px;
+  position: relative;
+}
+
+.fun {
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background: url(http://36.media.tumblr.com/a4d4af8cb7a6d7b87a511b9763fb030b/tumblr_mz3ruhSdpM1sx8v83o1_1280.jpg);
+  background-size: cover;
+  background-position: 10% 81%;
+}
+
+.fun {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+clip-path: polygon(100% 0, 100% 50%, 0 100%, 0% 50%);
+}
+
+.row3 > p {
+  position: absolute;
+  bottom: 30%;
+  left: 46%;
+  transform: translate(-37% -62%);
+  font-size: 7em;
+  transform: rotate(-22deg);
+  color: white;
+  font-family: 'Permanent Marker',cursive;
+}
 /***********************
 ABOUT SECTION
 ***********************/
 
 .about {
   margin-top: 150px;
-  width: 320px;
+  margin-bottom: 50px;
+  min-height: 500px;
+  width: 100%;
   position: relative;
-  background-color: red;
+  background-color: transparent;
+  overflow: hidden;
 }
 
-.about h1 {
+.about h2 {
   position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 3em;
-  z-index: 1;
+  top: -43px;
+  right: 0px;
+  font-size: 9em;
+  font-family: 'Permanent Marker',cursive;
+  color: #242424;
+  opacity: .85;
 }
 
 .about div {
   text-align: center;
   padding-top: 200px;
-  color: white;
+  color: #242424;
   font-size: 1em;
+  opacity: .8;
 }
 
 .about div:last-child {
   padding-bottom: 50px;
 }
 
-.worker1 {
 
+/***********************
+ABOUT: WORKERS
+***********************/
+
+
+.worker1, .worker2, .worker3 {
+  min-height: 400px;
+  overflow: hidden;
+  width: 100%;
 }
 
-.worker2 {
+.worker1, .worker2, .worker3 {
+  -webkit-clip-path: polygon(100% 25%, 100% 100%, 0% 75%, 0 0);
+  clip-path: polygon(100% 25%, 100% 100%, 0% 75%, 0 0);
+}
 
+.worker1 {
+  position: relative;
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background-color: #242424;
+  opacity: .81;
+  margin-bottom: 200px;
+}
+
+/*.worker1, .worker2, .worker3 p {
+  font-size: 0.91em;
+  padding: 3.5%;
+  position: relative;
+  top: -20px;
+}*/
+
+.worker2 {
+  background-color: #242424;
+  opacity: .81;
+  margin-top: -420px;
+  margin-bottom: 200px;
+  float: left;
+  min-height: 800px;
 }
 
 .worker3 {
-
+  margin-top: -420px;
+  position: relative;
+  float: left;
+  min-height: 800px;
+  width: 100%;
+  background-color: #242424;
+  opacity: .81;
 }
 
+.circle1, .circle2, .circle3 {
+  float:right;
+  width:350px;
+  height:100px;
+  margin: -1% -2% 1% 2%;
+  background-color: DarkTurquoise;
+  -webkit-shape-outside: circle(50%, 50%, 45%);
+  shape-outside: circle(45% at 50% 50%);
+  -webkit-clip-path: circle(45% at 50% 50%);
+  -webkit-clip-path: circle(50%, 50%, 45%);
+  -webkit-shape-margin: 10px;
+  shape-margin: 10px;
+}
 
+.circle1 {
+  background: url(http://ak-hdl.buzzfed.com/static/imagebuzz/web04/2011/10/10/9/abe-lincoln-ghostbuster-11462-1318251772-16.jpg);
+  background-size: cover;
+  background-position: 3% -6%;
+}
 
+.circle2 {
+  background: url(http://ak-hdl.buzzfed.com/static/enhanced/webdr01/2013/6/20/12/enhanced-buzz-855-1371744174-29.jpg);
+  background-size: cover;
+  background-position: 10% 15%;
+}
 
+.circle3 {
+  background: url(https://scontent.fphx1-2.fna.fbcdn.net/hphotos-xfp1/v/t1.0-9/11028010_1646831552218543_2654848818001781198_n.jpg?oh=05f92c95fd42f48094e4d9b8f665d1fc&oe=5714EF87);
+  background-size: auto;
+  background-position: 75% 58%;
+}
 
+@media (min-width: 320px) {
+  .worker1 p {font-size: .91em;
+    padding: 4.5%;
+    position: relative;
+    top: -20px;
+    color: white;
+    opacity: .75;
+  }
+}
 
+.worker1 h3 {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker2 h3 {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker2 p  {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker3 p  {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+
+.worker3 h3  {
+  color: white;
+  font-size: .91em;
+  opacity: .85;
+}
+/*@media (min-width: 599px) {
+    .worker1 p {font-size: 1em;
+    padding: 5.5%;
+    position: relative;
+    top: -20px;
+  }
+}*/
 
 
 
@@ -180,5 +390,51 @@ CONTACT SECTION
 ***********************/
 
 .contact {
-  margin-top: 100px;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  min-height: 800px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact h2 {
+  position: absolute;
+  bottom: 126px;
+  right: 72px;
+  transform: rotate(-26deg);
+  font-size: 12em;
+  z-index: 1;
+  color: #0B313B
+}
+
+.email {
+  float: right;
+  min-height: 800px;
+  width: 110%;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, -10% 100%, 145% 0, 100% 0);
+  clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 145% 0, 100% 0);
+  background-color: #fff;
+  opacity: .81;
+}
+
+
+
+
+/***********************
+FOOTER SECTION
+***********************/
+
+
+footer {
+  margin-top: 150px;
+  background-color: #242424;
+  opacity: .81;
+}
+
+footer p {
+  text-align: center;
+  padding: 5%;
+  color: white;
+  opacity: .81;
 }
